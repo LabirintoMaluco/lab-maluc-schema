@@ -1,0 +1,22 @@
+{
+  "name": "lab-maluc-schema",
+  "version": "0.0.1",
+  "description": "GraphQL Schema for Labirinto Maluco",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LabirintoMaluco/lab-maluc-schema.git"
+  },
+  "keywords": [
+    "Labirinto Maluco",
+    "GraphQL Schema"
+  ],
+  "author": "J Bruni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LabirintoMaluco/lab-maluc-schema/issues"
+  },
+  "homepage": "https://github.com/LabirintoMaluco/lab-maluc-schema#readme",
+  "devDependencies": {
+    "apollo": "^2.6.2"
+  }
+}

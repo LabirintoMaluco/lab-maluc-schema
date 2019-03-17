@@ -1,0 +1,21 @@
+schema {
+  query: Maluquice
+}
+
+"The root query object."
+type Maluquice {
+  "Yourself"
+  me: User
+
+  "A player"
+  user(id: ID!): User
+}
+
+"A player who signed up."
+type User {
+  "Player's ID"
+  id: ID!
+
+  "Player's Email"
+  email: String!
+}
